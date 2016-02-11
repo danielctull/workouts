@@ -1,0 +1,21 @@
+
+/* Default */
+html { font-family: -apple-system, "Helvetica Neue", "Helvetica", sans-serif; }
+
+/* For the Mac */
+h1 { font-weight: normal; font-size: 1.75em; }
+h2 { font-weight: normal; font-size: 1.375em; }
+h3 { font-weight: normal; font-size: 1.25em; }
+p  { font-weight: normal; font-size: 1.0625em; }
+.footnote { font-weight: normal; font-size: 0.8125em }
+.caption1 { font-weight: normal; font-size: 0.75em }
+.caption2 { font-weight: normal; font-size: 0.6875em }
+
+/* For iOS */
+h1 { font: -apple-system-title1 }
+h2 { font: -apple-system-title2 }
+h3 { font: -apple-system-title3 }
+p { font: -apple-system-body }
+.footnote { font: -apple-system-footnote }
+.caption1 { font: -apple-system-caption1 }
+.caption2 { font: -apple-system-caption2 }

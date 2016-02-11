@@ -1,0 +1,137 @@
+@import 'font.css';
+
+html {
+    background: #000;
+	color: #F8F8F8;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FDE53B;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	width: 100%;
+	max-width: 150pt;
+	max-height: 150pt;
+}
+
+/** CUSTOM BULLETS */
+
+.main ul.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main ul.list li {
+	padding-left: 1em;
+	text-indent: -0.7em;
+}
+
+.main ul.list li:before {
+	content: "\002022  ";
+	color: #FDE53B;
+}
+
+/** HEADER */
+
+div.header {
+	text-align: center;
+	padding: 20pt;
+	border-bottom: 1px solid #FDE53B;
+}
+
+div.header h1 {
+	margin: 20pt 0 0 0;
+}
+
+.double {
+	font-size: 2em;
+}
+
+div.header h2 {
+	margin: 0 0 20pt 0;
+}
+
+/** DOWNLOAD LINK */
+
+.download p {
+	margin: 0;
+	font-style: none;
+}
+a.download {
+	color: #333;
+}
+.download img {
+	margin: 0;
+}
+
+/** MAIN */
+
+div.page {
+	background: #000;
+}
+
+div.main  {
+	max-width: 500px;
+	margin: auto;
+}
+
+div.main h1 {
+	text-align: center;
+	color: #fff;
+	margin: 10pt 0;
+}
+
+div.main h2 {
+	text-align: center;
+	color: #bbb;
+	margin: 10pt 0;
+}
+
+div.main p, div.main li {
+	margin: 10pt 0;
+	line-height: 1.4em;
+}
+
+div.main .image {
+	text-align: center;
+}
+div.main .image img.feature {
+	width: 60pt;
+	margin: 2pt;
+}
+
+div.main div.section {
+    padding: 15px;
+    overflow: auto;
+}
+
+/** FOOTER */
+
+div.footer p {
+	border-top: 1pt solid #FF7F00;
+	text-align: center;
+	padding: 10pt 0pt;
+	margin: 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	div.header, div.footer p {
+		border-width: 0.5pt;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) {
+	div.header, div.footer p {
+		border-width: 1/3pt;
+	}
+}

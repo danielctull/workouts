@@ -1,0 +1,24 @@
+.screenshots {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch; 
+}
+
+.screenshots ul {
+    margin: 15px;
+    padding: 0;
+    white-space: nowrap;
+    word-spacing: -0.26em;
+    font-size: 0;
+}
+.screenshots ul li {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 15px;
+    display: inline-block;
+    width: 80%;
+}
+
+.screenshots img {
+    max-width: 100%;
+    display: block;
+}
